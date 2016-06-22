@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Fixing Problem hooking up HTC Vive to GTX 1080"
+date:   2016-06-21
+categories: vive
+---
+Recently, I had some trouble getting the HTC Vive to work with a Gigabyte G1 GTX 1080 video card.  The video card only has 1 HDMI port, which was being used by my monitor.  So I tried connecting the Vive via the Mini Display Port on the Vive Linkbox.  Steam VR could not find the Vive in this manner no matter how many times I tried.
+
+I didn't see a ton of stuff on google about this, but I ended up cooking up a simple workaround that others might find valuable -
+
+1. plug the Vive's HDMI cable directly into your video card's HDMI port.
+2. plug your monitor's HDMI cable into the Vive linkbox's HDMI port where the Headset would normally go.
+3. connect the linkbox to your video card by way of a Mini Display Port to Display Port cable.
+4. it should now work flawlessly.
+
+My understanding is that this is currently a bug, so hopefully this workaround shouldn't be needed for long. In any case, hopefully this info saves someone else hours of grief.
