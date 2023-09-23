@@ -27,7 +27,7 @@ This isn't exhaustive, as I'm still pretty new to Godot, but here's my findings 
 
 You can try this out yourself.  this node will execute for a brief period of time and then remove itself.
 
-```
+```csharp
 public partial class TestNode : Node
 {
     private double _timeAlive = 0f;
