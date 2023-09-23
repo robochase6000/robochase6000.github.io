@@ -15,10 +15,7 @@ You need to hit all 3 settings here -
 
 1. Use External Editor: On
 2. Exec Path - you need to navigate to the executable _inside_ the Rider.app -> select Rider.app/Contents/MacOS/rider
-3. Exec Flags - change to 
-{% highlight %}
-{project} --line {line} {file}
-{% endhighlight %}
+3. Exec Flags - change to `{project} --line {line} {file}`
 
 In the end you should look kinda like this - 
 ![Setting up Rider in Godot](/docs/assets/images/godot-rider-config.png)
