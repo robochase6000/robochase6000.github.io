@@ -25,7 +25,7 @@ In your godot script, you can do this -
 [Export] public Timer SpawnTimer1_PublicProperty { get; set; }
 [Export] public Timer SpawnTimer2_PublicField;
 [Export] private Timer _spawnTimer3_PrivateProperty { get; set; }
-[Export] public Timer _spawnTimer4_PrivateField;
+[Export] private Timer _spawnTimer4_PrivateField;
 ```
 
 this creates new fields in the inspector you can drop other nodes into, just like unity - 
