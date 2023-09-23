@@ -15,5 +15,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: robochase6000
 github_username:  robochase6000
 
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
 # Build settings
 markdown: kramdown
+
