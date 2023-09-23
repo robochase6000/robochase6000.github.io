@@ -2,7 +2,6 @@
  * Syntax highlighting styles
  */
 .highlight {
-    background: #333;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {
