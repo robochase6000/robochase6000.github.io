@@ -23,4 +23,6 @@ You need to hit all 3 settings here -
 In the end you should look kinda like this - 
 ![Setting up Rider in Godot](/docs/assets/images/godot-rider-config.png)
 
-Now double clicking scripts in Godot should open them in Rider correctly. Have fun 8)
+Now double clicking scripts in Godot should open them in Rider correctly. 
+
+Have fun 8)

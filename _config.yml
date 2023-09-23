@@ -7,7 +7,7 @@
 
 # Site settings
 title: From the files of robochase6000
-# email: chase.delanguillette@gmail.com
+email: chase.delanguillette@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Get hyped about something
 baseurl: "" # the subpath of your site, e.g. /blog
