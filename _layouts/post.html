@@ -12,6 +12,12 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-tags">
+  	{% for tag in page.tags %}
+    	<p>{{ tag }}</p>
+		{% endfor %}
+	</div>
+
   <div id="disqus_thread"></div>
 	<script>
 	/**
