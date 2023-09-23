@@ -17,6 +17,6 @@ Exec Path - you need to navigate to the executable _inside_ the Rider.app -> sel
 Exec Flags - change to `{project} --line {line} {file}`
 
 In the end you should look kinda like this - 
-![Setting up Rider in Godot](/assets/images/godot-rider-config.png)
+![Setting up Rider in Godot](/docs/assets/images/godot-rider-config.png)
 
 Now double clicking scripts in Godot should open them in Rider correctly.
