@@ -11,4 +11,12 @@ the documentation from Godot 4.1 isn't very clear - https://docs.godotengine.org
 Here's how to do it on the mac -
 Editor > Editor Settings > Text Editor > External
 
+See the Exec Path field - 
 ![Setting up Rider in Godot](/assets/images/godot-rider-config.png)
+
+you need to navigate to inside the Rider.app -> select Rider.app/Contents/MacOS/rider
+
+this only gets so far.  with this setting changed, double clicking a file in Godot will open the file in Rider, but it won't open the sln in rider.
+
+To have it auto-open the sln in rider, enter this in the Exec Flags field - 
+`{project} --line {line} {file}`
