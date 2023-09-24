@@ -49,4 +49,5 @@ public class CharacterSpawner : Node
 
 Note that we're using Godot's `Node._Input` method instead of `_Process` because Godot doesn't have such a thing as `Input.IsKeyJustPressed`, so here we're checking ourselves. This limits it to spawning one Character per key press, instead of one Character every frame the key is held down.
 
+#### Spawning to the root of the hierarchy
 Also note that the above code will make the character a child of the node spawning it.  `AddChild` is a method of `Node`, so you could easily add it to a different node.  Or if you wanted to add it to the root of the hierachy, see `Node.GetTree().Root` - GetTree is also a method of Node, and it returns the SceneTree.
