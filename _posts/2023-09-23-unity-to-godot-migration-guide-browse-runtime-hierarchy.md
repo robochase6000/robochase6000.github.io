@@ -18,3 +18,5 @@ The trick is to run the game from the godot editor, then go back to the editor a
 
 As of Godot 4.1, this seems to be as good as it gets.  You can't currently click around the scene like you can in unity and pan the scene camera around.
 
+Note that I disovered a setting that lets the editor enter Remote' mode automatically when you start playing the game - <http://robochase6000.github.io/2023/09/24/unity-to-godot-migration-guide-auto-switch-to-runtime-hierarchy.html>
+
