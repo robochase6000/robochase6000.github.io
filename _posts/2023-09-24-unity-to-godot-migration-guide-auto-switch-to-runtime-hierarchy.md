@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unity To Godot Migration guide: Browse runtime hierarchy"
+title:  "Unity To Godot Migration guide: Auto Switch to runtime hierarchy setting"
 date:   2023-09-23
 tags:
 - Unity
