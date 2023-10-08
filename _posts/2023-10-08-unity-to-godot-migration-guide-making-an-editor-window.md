@@ -133,7 +133,7 @@ This is easy -
 
 you should now see your Dock, and clicking it should log your message!
 
-![Success](/docs/assets/images/godot-plugin-scene-hierarchy.png)
+![Success](/docs/assets/images/godot-plugin-complete.png)
 
 NOTE: every time you change your scene or plugin code, you will need to toggle your plugin off, then on again.
 
